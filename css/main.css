@@ -41,13 +41,13 @@ article h1 {
 
 body {
   padding-top: 5rem;
-  margin: inherit;
+  margin: 0;
   border-bottom: solid 1px;
   border-color: #999;
 }
 
 article ol {
-  font-size: 1.1rem
+  font-size: 1.1rem;
 }
 
 blockquote {
