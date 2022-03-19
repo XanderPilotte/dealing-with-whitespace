@@ -1,3 +1,59 @@
 html {
+  box-sizing: border-box;
+  font-family: "Crimson Text";
+  font-size: 1.125rem;
+  line-height: 1.3;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #222;
+}
 
+* {
+  box-sizing: inherit;
+}
+
+article {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+article p {
+  font-size: 1rem;
+}
+
+article header {
+  color: #222;
+  font-style: italic;
+  border-bottom: solid 1px;
+  border-color: #555;
+  padding-bottom: 10px;
+  line-height: .1em;
+}
+
+article header p {
+  line-height: .2em;
+}
+
+article h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+body {
+  padding-top: 5rem;
+  margin: inherit;
+  border-bottom: solid 1px;
+  border-color: #999;
+}
+
+article ol {
+  font-size: 1.1rem
+}
+
+blockquote {
+  color: #555;
+}
+
+.quote {
+  color: #999;
 }
